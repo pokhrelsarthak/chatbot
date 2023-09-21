@@ -10,7 +10,7 @@ import calculate_calorie as calc
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('content.json', 'r') as json_data:
+with open('contents.json', 'r') as json_data:
     intents = json.load(json_data)
 
 

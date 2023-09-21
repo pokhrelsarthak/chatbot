@@ -6,7 +6,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import tokenize, stem, bag_of_words
 from model import NeuralNet
 
-with open('content.json', 'r') as f:
+with open('contents.json', 'r') as f:
 	intends = json.load(f)
 
 all_words = []
